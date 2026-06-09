@@ -4,15 +4,15 @@ NUM1=float(input("Enter first number:"))
 NUM2=float(input("Enter second number:"))
 operation=input("enter operation:")
 if(operation=="+"):
-print(NUM1+NUM2)
+    print(NUM1+NUM2)
 elif(operation=="-"):
-print(NUM1-NUM2)
+    print(NUM1-NUM2)
 elif(operation=="×"):
-print(NUM1*NUM2)
+    print(NUM1*NUM2)
 elif(operation=="^"):
-print(NUM1**NUM2)
+    print(NUM1**NUM2)
 elif(operation=="/"):
-print(NUM1/NUM2)
+    print(NUM1/NUM2)
 else:
-print("INVALID OPERATION DEMAND")
+    print("INVALID OPERATION DEMAND")
 
